@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
+    "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7-1\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7\\RazorPagesMovie\\RazorPagesMovie.csproj": {
+    "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7-1\\RazorPagesMovie\\RazorPagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectUniqueName": "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7-1\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "projectName": "RazorPagesMovie",
-        "projectPath": "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectPath": "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7-1\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "packagesPath": "C:\\Users\\noahc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7\\RazorPagesMovie\\obj\\",
+        "outputPath": "C:\\Users\\noahc\\OneDrive\\Desktop\\Database and Websystems\\csci340lab7-1\\RazorPagesMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\noahc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
